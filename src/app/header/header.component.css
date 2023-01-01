@@ -1,0 +1,41 @@
+:root {
+  --headerLiMarginRight: 10vh;
+}
+
+.nav-item a {
+  margin-right: var(--headerLiMarginRight);
+  color: var(--bs-light);
+}
+
+.nav-item a::after {
+  content: "";
+  color: var(--bs-danger);
+  transition: 0.05s;
+}
+
+.nav-item a:hover {
+  color: var(--bs-teal);
+}
+
+.nav-item a:hover::after {
+  color: var(--bs-light);
+}
+
+.name-extra {
+  padding-left: 40vh !important;
+  color: var(--bs-cyan);
+}
+
+.name-extra:hover {
+  color: var(--bs-white);
+}
+
+.name-extra:hover::after {
+  content: "";
+  color: var(--bs-danger);
+  transition: 0.05s;
+}
+
+.nav-link {
+  font-size: 80%;
+}

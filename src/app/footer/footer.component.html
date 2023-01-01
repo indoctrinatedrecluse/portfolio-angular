@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<div id="footer">
+  <nav class="navbar navbar-expand-md fixed-bottom bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <div class="navbar-header d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+              <img class="rounded-pill socials-disclaimer-extra" src={{iconPath}} alt={{iconAlt}}/>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <p class="navbar-brand">Socials</p>
+        </li>
+      </ul>
+      <div class="navbar-right">
+        <ul class="navbar-nav">
+          <li class="nav-item" *ngFor="let site of socials">
+            <a class="{{site.fontFamily}} {{site.iconClass}}" style="{{site.iconStyle}}" href="{{site.url}}" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,54 @@
+:root {
+}
+
+#home {
+  min-height: 100vh;
+}
+
+.intro-heading-prompter {
+  font-size: 5vh;
+  text-align: center;
+}
+
+#intro-heading-disclaimer {
+  flex-direction: column;
+}
+
+.intro-heading-name {
+  letter-spacing: 1vh;
+  text-align: center;
+}
+
+.intro-heading-subtext {
+  text-align: center;
+}
+
+.intro-description {
+  padding-top: 2vh;
+  text-align: center;
+}
+
+#intro-text {
+  flex-direction: column;
+}
+
+#button-area-outer {
+  margin-top: 2vh;
+  flex-direction: row;
+}
+
+#resume-button-container {
+  border: 0.25vh solid deepskyblue;
+}
+
+#resume-button-container:hover {
+  border: 0.25vh solid orangered;
+  background-color: aqua;
+  color: azure;
+}
+
+#resume-button-container:hover::after {
+  border: 0.25vh solid deepskyblue;
+  color: red;
+  transition: 0.3s;
+}

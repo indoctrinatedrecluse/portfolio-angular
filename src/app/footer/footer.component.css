@@ -1,0 +1,34 @@
+:root {
+}
+
+.socials-disclaimer-extra {
+  width: 5vh;
+  height: 5vh;
+}
+
+.fab {
+  margin-right: 5vh;
+  margin-left: 5vh;
+  width: 5vh;
+  font-size: 5vh;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  opacity: 0.5;
+}
+
+.fa-solid {
+  margin-right: 5vh;
+  margin-left: 5vh;
+  width: 5vh;
+  font-size: 5vh;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-solid:hover {
+  opacity: 0.5;
+}

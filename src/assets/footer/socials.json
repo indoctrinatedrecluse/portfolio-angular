@@ -1,0 +1,44 @@
+[
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-facebook",
+    "iconStyle": "background: transparent; color: #3B5998;",
+    "url": "https://www.facebook.com/profile.php?id=100004699565845"
+  },
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-github",
+    "iconStyle": "background: #808080; color: white;",
+    "url": "https://github.com/indoctrinatedrecluse"
+  },
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-linkedin",
+    "iconStyle": "background: transparent; color: #007bb5;",
+    "url": "https://www.linkedin.com/in/abhishek-mitra-2b4264220/"
+  },
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-telegram",
+    "iconStyle": "background: #00aff0; color: white;",
+    "url": "https://t.me/indoctrinatedrecluse"
+  },
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-google",
+    "iconStyle": "background: #dd4b39; color: white;",
+    "url": "mailto:abmitra1999@gmail.com"
+  },
+  {
+    "fontFamily": "fa-solid",
+    "iconClass": "fa-envelope",
+    "iconStyle": "background: transparent; color: #45bbff;",
+    "url": "mailto:abhishekmitra@hotmail.com"
+  },
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-discord",
+    "iconStyle": "background: transparent; color: #f40083;",
+    "url": "https://discordapp.com/users/905513847543193610"
+  }
+]

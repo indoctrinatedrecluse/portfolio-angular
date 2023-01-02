@@ -37,8 +37,8 @@ export class AboutComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const url1: string = "assets/about/photos.json";
-    this.http.get(url1).subscribe((response) => {
+    const url: string = "assets/about/photos.json";
+    this.http.get(url).subscribe((response) => {
       this.httpResponse = response;
       for (var item of this.httpResponse) {
         this.photos.push(item);

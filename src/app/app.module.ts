@@ -12,6 +12,7 @@ import { NgbCarouselModule } from "@ng-bootstrap/ng-bootstrap";
 
 import * as $ from "jquery";
 import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ProjectsComponent } from './projects/projects.component';
     HomeComponent,
     FooterComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

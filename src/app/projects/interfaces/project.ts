@@ -4,4 +4,5 @@ export interface Project {
   description: string;
   technologies: string[];
   url: string;
+  privacy: boolean;
 }

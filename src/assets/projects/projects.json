@@ -1,9 +1,66 @@
 [
   {
-    "image": "",
-    "title": "",
-    "description": "",
-    "technologies": [],
-    "url": ""
+    "image": "/assets/projects/local/forumPhp.jpg",
+    "title": "Forum and Chat",
+    "description": "This is a forum with posts (which have upvotes and comments), privacy and public chat, and a user registration system coupled with a maintenance system for site admins, coded in html/php, css/bootstrap, jQuery, AJAX, SQL, and custom fonts and so on, optimized for multiple devices. It requires an Apache based server and sql to test.",
+    "technologies": ["html", "css", "php", "javascript", "mariadb"],
+    "url": "https://github.com/indoctrinatedrecluse/forum_and_chat",
+    "privacy": false
+  },
+  {
+    "image": "/assets/projects/local/digitalVentriloquism.jpg",
+    "title": "Digital Ventriloquism",
+    "description": "This is an attempt at an app which masks one's face with 2D models and tracks their movement with inbuilt expressions. It also has voice modulation and chatting options.",
+    "technologies": ["html", "css", "python", "javascript", "sql"],
+    "url": "https://github.com/indoctrinatedrecluse/reimagined-sniffle",
+    "privacy": false
+  },
+  {
+    "image": "/assets/projects/local/forumJava.png",
+    "title": "Community App",
+    "description": "More polished social media site inspired by StackOverflow, with threads, up/downvotes, comments and chat, written in Java (DAO model).",
+    "technologies": ["html", "css", "java", "javascript", "oracle", "ps"],
+    "url": "https://github.com/indoctrinatedrecluse/Community_App",
+    "privacy": false
+  },
+  {
+    "image": "/assets/projects/local/db.jpg",
+    "title": "Spatial Data",
+    "description": "An experiment with spatial data in various formats, and transforming the data into topographical representaions.",
+    "technologies": ["javascript", "kml", "R", "postgres", "python"],
+    "url": "https://github.com/indoctrinatedrecluse/Spatial-Data-Project",
+    "privacy": false
+  },
+  {
+    "image": "/assets/projects/local/artsyWeb.jpg",
+    "title": "Artist Search (Web)",
+    "description": "A website to search for paintings, gather information on them and review similar artists and paintings. Powered by Artsy.",
+    "technologies": ["typescript", "axios", "flask", "python", "json", "scss", "bootstrap", "angular"],
+    "url": "https://csci-571-hw8-17-indoctrinated.wl.r.appspot.com/#",
+    "privacy": true
+  },
+  {
+    "image": "/assets/projects/local/artsyAndroid.jpg",
+    "title": "Artist Search (Android)",
+    "description": "A website to search for paintings, gather information on them and review similar artists and paintings. Powered by Artsy. Now ported to Android, uses modals and floating windows.",
+    "technologies": ["typescript", "python", "json", "scss", "bootstrap", "android"],
+    "url": "",
+    "privacy": true
+  },
+  {
+    "image": "/assets/projects/local/weenix.png",
+    "title": "Weenix (Toy UNIX)",
+    "description": "A toy version of UNIX, which comes with threads, processes, and a rudimentary kernel shell. Contains extensive test cases, capable of forking and dealing with files (ramfs, s5fs).",
+    "technologies": ["UNIX", "C", "python", "bash", "QEMU", "object"],
+    "url": "",
+    "privacy": true
+  },
+  {
+    "image": "/assets/projects/local/swiftalk.webp",
+    "title": "SwifTalk",
+    "description": "A data integration plugin between software like Jira, Rally, SwiftKanban, etc. Uses recent technology and auto monitors pipeline health. No user action needed, automation is the key.",
+    "technologies": ["groovy", "nifi", "kafka", "spark", "mongodb", "springboot", "webhooks", "terraform", "tekton", "snaplogic", "ecma", "robo3t", "vault", "nifireg"],
+    "url": "",
+    "privacy": true
   }
 ]

@@ -4,3 +4,19 @@
 #projects {
   min-height: 100vh;
 }
+
+.card-wrapper {
+  max-width: 65vh;
+}
+
+.card-img-extra {
+  max-width: 65vh;
+  max-height: 45vh;
+}
+
+.visit {
+  border: 2px solid deepskyblue;
+  background-color: white;
+  margin-left: 5vh;
+  color: black;
+}

@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<div id="about" class="container-fluid d-flex justify-content-center align-items-center h-100">
+  <div id="about-inner">
+    <div id="about-heading">
+      <h4 class="about-heading-disclaimer fa-solid fa-text">A little bit about me <i class="fa-solid fa-arrow-down-short-wide"></i></h4>
+    </div>
+    <div id="about-description" class="container-fluid d-flex justify-content-center align-items-center">
+      <ngb-carousel id="image-carousel" *ngIf="photos" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+        <ng-template ngbSlide *ngFor="let picture of photos">
+          <div class="carousel-image-wrapper">
+            <img class="carousel-image rounded-circle" src="{{picture.url}}" alt="{{carouselAltString}}" />
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div id="about-description-text-wrapper">
+        <p class="about-description-text">I am a current graduate student at
+          <a href="{{links['usc']}}" style="text-decoration: none;" target="_blank"><b>USC</b></a> in Los Angeles, California, USA.</p>
+        <br>
+        <p class="about-description-text">I enjoy random technology of any kind, and experimenting with fun software, new hardware, video game<br>
+          playing and modding, reading and writing literature and mythology, music, water sports, pretty much anything<br>
+          that catches my whimsy. I have done work in Web Development for
+          <a href="{{links['msidc']}}" style="text-decoration: none;" target="_blank">Microsoft IDC</a> as an intern,<br>
+          and worked as a Full-Stack DevOps engineer at
+          <a href="{{links['dig']}}" style="text-decoration: none;" target="_blank">Digite</a> in a Scrum+Kanban environment.<br>
+          Specific details are listed in the <a href="#projects" style="text-decoration: none;">Projects</a> and <a href="#skills" style="text-decoration: none;">Skills</a> sections.</p>
+        <p class="about-description-text">I will graduate in <b>May 2023</b> and am currently looking for job opportunities, in anything<br>
+          from web to full stack development to data integration to game development and VR related work.</p>
+      </div>
+    </div>
+  </div>
+</div>

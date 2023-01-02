@@ -1,0 +1,33 @@
+:root {
+}
+
+#about {
+  min-height: 100vh;
+}
+
+#about-inner {
+  flex-direction: column;
+}
+
+#about-heading {
+  align-self: center;
+  margin-left: 70vh;
+}
+
+#about-description {
+  flex-direction: row;
+}
+
+#image-carousel {
+  margin-top: 50px;
+}
+
+.carousel-image {
+  max-height: 50vh;
+  max-width: 50vh;
+  overflow: hidden;
+}
+
+#about-description-text-wrapper {
+  margin-left: 20vh;
+}

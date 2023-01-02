@@ -1,0 +1,46 @@
+[
+  {
+    "companyAcronym": "CRY",
+    "companyFull": "Child Rights and You",
+    "companyLogo": "/assets/skills/local/CRY.png",
+    "position": "Intern",
+    "location": "Kolkata, India",
+    "specialization": "Management",
+    "dateString": "07.05.2018 – 07.06.2018",
+    "description": "Non-technical summer internship, tasked in the first half with managing a fundraiser to be organized at the Indian Museum, Esplanade, Kolkata, and to gather sponsorship and a distinguished guest list for the same. Separately, to interview applicants for and help organize the yearly CRY MUN (Model United Nations). The second part of the internship related to helping educate economically challenged students in designated areas in Kolkata after acquiring accommodations for the same through sponsorship from local authorities.",
+    "skills": ["Teaching", "Fundraising", "Event Management", "Organization", "Teamwork"]
+  },
+  {
+    "companyAcronym": "MS IDC",
+    "companyFull": "Microsoft India Development Center",
+    "companyLogo": "/assets/skills/local/MS.jpg",
+    "position": "Intern",
+    "location": "Bengaluru, India",
+    "specialization": "Web Development",
+    "dateString": "11.05.2020 – 03.07.2020",
+    "description": "Software Engineering Intern at Microsoft IDC Bengaluru, worked on ReactJS, AngularJS, GraphQL and Azure, mainly on integrating Speller Suggestions into All Tab of Microsoft Teams, that is, a suggestive autocorrect system on the search results page based on searches from connected Microsoft services like Office, Sharepoint and Teams services.",
+    "skills": ["React", "Angular", "Azure DevOps", "GraphQL", "Microservices", "Elegant Code"]
+  },
+  {
+    "companyAcronym": "Digite",
+    "companyFull": "Digite Infotech",
+    "companyLogo": "/assets/skills/local/Digite.jpg",
+    "position": "Full Time",
+    "location": "Mumbai, India (WFH)",
+    "specialization": "Data Integration and Pipelining Consultancy",
+    "dateString": "01.06.2021 – 04.11.2021",
+    "description": "Worked on data integration and pipeline building, QA in DevOps, Automated Testing and building an auto-monitored framework for data integration between platforms like Salesforce, SwiftKanban, Jira, Rally, and so on, using technologies like Apache Nifi, Kafka, Spark, MongoDB (Robo3T); JUnit, Cucumber for testing; Jenkins pipelines and various Nifi/Nifi Registry APIs; Vault, Snaplogic and other software. Used Junit, Tekton for Kubernetes (clustered across AWS machines) maintenance scripts, Terraform for AWS setup, Groovy, ECMA and JS/TS to write Nifi scripts to import data between software like Jira, Rally, Azure DevOps, and Google Chat API to send auto-bot messages on status change/failure.",
+    "skills": ["Nifi", "Kakfa", "Spark", "MongoDB", "Robo3T", "Webhooks", "Snaplogic", "ECMA", "Tekton", "Groovy", "Jenkins", "Terraform", "Google Chat API", "Nifi Registry", "Vault"]
+  },
+  {
+    "companyAcronym": "USC",
+    "companyFull": "University of Southern California",
+    "companyLogo": "/assets/skills/local/USC.jpg",
+    "position": "Student",
+    "location": "Los Angeles, California",
+    "specialization": "Masters in Computer Science",
+    "dateString": "07.01.2022 – 26.05.2023",
+    "description": "My present coursework includes a variety of subjects to support full stack, listed as follows.",
+    "skills": ["Analysis of Algorithms", "Database Systems", "Web Technologies", "Operating Systems", "Foundations of Artificial Intelligence", "Information Retrieval and Web Search Engines", "Game Engine Development"]
+  }
+]

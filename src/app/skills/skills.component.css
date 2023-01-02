@@ -1,0 +1,29 @@
+:root {
+}
+
+#skills {
+  min-height: 100vh;
+}
+
+.company-logo {
+  width: 10vh;
+  height: 10vh;
+}
+
+#details {
+  margin-top: 10vh;
+}
+
+#tabs {
+  border: 1px solid gray;
+}
+
+.nav-item-extra {
+  background-color: white;
+  color: deepskyblue;
+}
+
+.nav-item-extra:hover {
+  background-color: deepskyblue;
+  color: black !important;
+}

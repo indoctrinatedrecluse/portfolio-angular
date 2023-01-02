@@ -1,5 +1,32 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 <div id="skills" class="container-fluid d-flex justify-content-center align-items-center h-100">
   <div id="skills-inner">
+    <ul id="tabs" class="nav nav-pills nav-fill d-flex flex-row" *ngIf="experiences">
+      <li class="nav-item nav-item-extra" *ngFor="let experience of experiences; let index = index">
+        <a class="nav-link" href="#skills-inner" (click)="activeTab = index">{{experience.companyAcronym}}</a>
+      </li>
+    </ul>
+    <div id="details" class="container-fluid d-flex flex-row justify-content-center align-items-center">
+      <ul class="nav d-flex flex-column justify-content-center align-items-center">
+        <li class="nav-item">
+          <p><img class="company-logo" src="{{experiences[activeTab].companyLogo}}" alt="{{logoAltString}}" />&nbsp;&nbsp;&nbsp;&nbsp;<b>{{experiences[activeTab].position}}</b> at <b>{{experiences[activeTab].companyFull}}</b></p>
+        </li>
+        <li class="nav-item">
+          <p>({{experiences[activeTab].dateString}}), {{experiences[activeTab].location}}</p>
+        </li>
+        <li class="nav-item">
+          <p>Worked mainly with <b>{{experiences[activeTab].specialization}}</b>, specifically:</p>
+        </li>
+        <li class="nav-item">
+          <p style="text-align: center">{{experiences[activeTab].description}}</p>
+        </li>
+        <li class="nav-item">
+          <p style="text-align: center">Specific skills/technology stack:</p><br>
+          <ul class="nav d-flex flex-row flex-wrap justify-content-center align-items-center">
+            <li class="fa-sharp fa-solid fa-circle-check" style="padding-bottom: 3vh;" *ngFor="let skill of experiences[activeTab].skills">&nbsp;{{skill}}&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>

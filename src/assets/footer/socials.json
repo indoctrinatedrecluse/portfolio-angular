@@ -40,5 +40,11 @@
     "iconClass": "fa-discord",
     "iconStyle": "background: transparent; color: #f40083;",
     "url": "https://discordapp.com/users/905513847543193610"
+  },
+  {
+    "fontFamily": "fab",
+    "iconClass": "fa-skype",
+    "iconStyle": "background: transparent; color: #00aff0;",
+    "url": "https://join.skype.com/invite/aVe8hrSXQZOr"
   }
 ]

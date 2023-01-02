@@ -22,7 +22,7 @@
 }
 
 .name-extra {
-  padding-left: 40vh !important;
+  padding-left: 35vh !important;
   color: var(--bs-cyan);
 }
 
@@ -38,4 +38,14 @@
 
 .nav-link {
   font-size: 80%;
+}
+
+.header-herald {
+  color: orangered;
+  width: 7vh;
+  height: 7vh;
+}
+
+.header-herald:hover {
+  opacity: 0.5;
 }

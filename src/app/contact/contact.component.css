@@ -1,0 +1,16 @@
+:root {
+}
+
+#contact {
+  min-height: 100vh;
+}
+
+#contact-inner {
+  flex-direction: row;
+}
+
+.arrow {
+  height: 50vh;
+  width: 50vh;
+  margin-left: 30vh;
+}

@@ -13,15 +13,18 @@ export class SkillsComponent implements OnInit {
   activeTab: number;
   experiences: Experience[];
   logoAltString: string;
+  loaderContext: any;
 
   constructor(private http:HttpClient) {
     this.experiences = [];
     this.activeTab = 0;
     this.httpResponse = "";
     this.logoAltString = "";
+    this.loaderContext = "";
   }
 
   ngOnInit(): void {
+    this.loaderContext = $('#skills-loader').detach();
     const url: string = "assets/skills/experiences.json";
     this.http.get(url).subscribe((response) => {
       this.httpResponse = response;
@@ -29,5 +32,18 @@ export class SkillsComponent implements OnInit {
         this.experiences.push(item);
       }
     });
+    this.manageTab(this.activeTab);
+  }
+
+  manageTab(index: number) {
+    var details = $('#details').detach();
+    $('#skills-inner').append(this.loaderContext);
+    this.activeTab = index;
+    var context = this;
+    setTimeout(function () {
+      (document.getElementById("skills-loader") as any).classList.add("loader-hidden");
+      context.loaderContext = $('#skills-loader').detach();
+      $('#skills-inner').append(details);
+    }, 1500);
   }
 }

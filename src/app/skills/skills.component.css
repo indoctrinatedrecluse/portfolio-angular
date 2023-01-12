@@ -16,6 +16,8 @@
 
 #tabs {
   border: 1px solid gray;
+  align-content: center;
+  align-self: center;
 }
 
 .nav-item-extra {
@@ -26,4 +28,27 @@
 .nav-item-extra:hover {
   background-color: deepskyblue;
   color: black !important;
+}
+
+.loader-skills {
+  z-index: 999;
+  overflow: visible;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.component-hidden {
+  display: none;
+}
+
+.component-visible {
+  display: flex !important;
+}
+
+.active {
+  background-color: deepskyblue;
+  color: white;
 }

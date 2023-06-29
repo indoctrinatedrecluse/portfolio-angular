@@ -15,7 +15,6 @@
 }
 
 #tabs {
-  border: 1px solid gray;
   align-content: center;
   align-self: center;
 }
@@ -23,6 +22,9 @@
 .nav-item-extra {
   background-color: white;
   color: deepskyblue;
+  border: 1px solid navy;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .nav-item-extra:hover {

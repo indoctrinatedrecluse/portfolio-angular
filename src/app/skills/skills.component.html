@@ -2,7 +2,7 @@
 <div id="skills" class="container-fluid d-flex justify-content-center align-items-center h-100">
   <div id="skills-inner">
     <ul id="tabs" class="nav nav-pills nav-fill d-flex flex-row" *ngIf="experiences">
-      <li class="nav-item nav-item-extra" *ngFor="let experience of experiences; let index = index" [ngClass]="{ 'active': activeTab === index}">
+      <li class="nav-item rounded-pill nav-item-extra" *ngFor="let experience of experiences; let index = index" [ngClass]="{ 'active': activeTab === index}">
         <a class="nav-link" href="#skills" (click)="manageTab(index)">{{experience.companyAcronym}}</a>
       </li>
     </ul>
@@ -23,7 +23,7 @@
           <p>Worked mainly with <b>{{experiences[activeTab].specialization}}</b>, specifically:</p>
         </li>
         <li class="nav-item" *ngIf="activeTab==3">
-          <p>Currently completing a <b>{{experiences[activeTab].specialization}}</b>.</p>
+          <p>Completed a <b>{{experiences[activeTab].specialization}}</b>.</p>
         </li>
         <li class="nav-item">
           <p style="text-align: center">{{experiences[activeTab].description}}</p>

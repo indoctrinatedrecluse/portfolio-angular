@@ -14,10 +14,12 @@ export class HeaderComponent implements OnInit {
   componentProjects: string = "app-projects";
   componentSkills: string = "app-skills";
   componentContact: string = "app-contact";
+  timeoutDuration: number;
 
   constructor() {
     this.iconPath = "./assets/header/navbar-logo.png";
     this.iconAlt = "AM";
+    this.timeoutDuration = 700;
   }
 
   ngOnInit(): void {
@@ -35,6 +37,6 @@ export class HeaderComponent implements OnInit {
       (document.getElementById("loader-principal") as any).classList.remove("loader-visible");
       (document.getElementById("loader-principal") as any).classList.add("loader-hidden");
       document.getElementsByTagName(component)[0].className = "overseer component-visible";
-    }, 1500);
+    }, this.timeoutDuration);
   }
 }

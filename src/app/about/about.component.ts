@@ -17,6 +17,9 @@ export class AboutComponent implements OnInit {
   showNavigationArrows: boolean = false;
   showNavigationIndicators: boolean = false;
   links: any;
+  timeoutDuration: number;
+  componentProjects: string = "app-projects";
+  componentSkills: string = "app-skills";
 
   constructor(private http: HttpClient, private config: NgbCarouselConfig) {
     this.carouselAltString = "AM";
@@ -27,6 +30,7 @@ export class AboutComponent implements OnInit {
       "dig": "https://www.digite.com/"
     };
     this.httpResponse = "";
+    this.timeoutDuration = 700;
     config.interval = 4000;
     config.animation = false;
     config.keyboard = false;
@@ -44,5 +48,19 @@ export class AboutComponent implements OnInit {
         this.photos.push(item);
       }
     });
+  }
+
+  display(component: string): void {
+    for (var element of (document.getElementsByClassName("overseer") as any)) {
+      element.className = "overseer component-hidden";
+      console.log(element);
+    }
+    (document.getElementById("loader-principal") as any).classList.remove("loader-hidden");
+    (document.getElementById("loader-principal") as any).classList.add("loader-visible");
+    setTimeout(function () {
+      (document.getElementById("loader-principal") as any).classList.remove("loader-visible");
+      (document.getElementById("loader-principal") as any).classList.add("loader-hidden");
+      document.getElementsByTagName(component)[0].className = "overseer component-visible";
+    }, this.timeoutDuration);
   }
 }

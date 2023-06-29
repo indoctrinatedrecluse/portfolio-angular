@@ -39,8 +39,8 @@
     "position": "Student",
     "location": "Los Angeles, California",
     "specialization": "Masters in Computer Science",
-    "dateString": "07.01.2022 – 26.05.2023",
-    "description": "My present coursework includes a variety of subjects to support full stack, listed as follows:",
+    "dateString": "07.01.2022 – 12.05.2023",
+    "description": "My coursework includes a variety of subjects to support full stack, listed as follows:",
     "skills": ["Analysis of Algorithms", "Database Systems", "Web Technologies", "Operating Systems", "Foundations of Artificial Intelligence", "Information Retrieval and Web Search Engines", "Game Engine Development"]
   }
 ]

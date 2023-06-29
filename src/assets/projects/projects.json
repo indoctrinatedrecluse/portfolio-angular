@@ -59,8 +59,32 @@
     "image": "/assets/projects/local/swiftalk.webp",
     "title": "SwifTalk",
     "description": "A data integration plugin between software like Jira, Rally, SwiftKanban, etc. Uses recent technology and auto monitors pipeline health. No user action needed, automation is the key.",
-    "technologies": ["groovy", "nifi", "kafka", "spark", "mongodb", "springboot", "webhooks", "terraform", "tekton", "snaplogic", "ecma", "robo3t", "vault", "nifireg"],
+    "technologies": [ "groovy", "nifi", "kafka", "spark", "mongodb", "springboot", "webhooks", "terraform", "tekton", "snaplogic", "ecma", "robo3t", "vault", "nifireg" ],
     "url": "",
     "privacy": true
+  },
+  {
+    "image": "/assets/projects/local/paddleball.gif",
+    "title": "Paddleball",
+    "description": "A simply pygame project where a paddle must be used to restrain a ball inside screen limits. Hosted on replit.",
+    "technologies": [ "pygame", "python" ],
+    "url": "https://replit.com/@indoctrinatedrecluse/PaddleBall",
+    "privacy": false
+  },
+  {
+    "image": "/assets/projects/local/spectrographic.png",
+    "title": "Spectrographic Derivation",
+    "description": "Convert an image into a wav file whose spectrogram is the image using spectrpgraphic, generate the spectrogram back from sound and compare!",
+    "technologies": [ "python", "spectrographic", "scipy", "matplotlib", "numpy" ],
+    "url": "https://github.com/indoctrinatedrecluse/spectrographic-derivation",
+    "privacy": false
+  },
+  {
+    "image": "/assets/projects/local/music_generator.webp",
+    "title": "Simple text to music (randomized)",
+    "description": "Converts simple UNICODE to 3-shingles and then to a sea shanty using ABC and MIDI formats, ultimately generating a WAV instrumental from it!",
+    "technologies": [ "python", "midi", "abc-notation", "music21", "midi2wav" ],
+    "url": "https://github.com/indoctrinatedrecluse/music-generator",
+    "privacy": false
   }
 ]

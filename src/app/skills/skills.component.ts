@@ -14,6 +14,7 @@ export class SkillsComponent implements OnInit {
   experiences: Experience[];
   logoAltString: string;
   loaderContext: any;
+  timeoutDuration: number;
 
   constructor(private http:HttpClient) {
     this.experiences = [];
@@ -21,6 +22,7 @@ export class SkillsComponent implements OnInit {
     this.httpResponse = "";
     this.logoAltString = "";
     this.loaderContext = "";
+    this.timeoutDuration = 700;
   }
 
   ngOnInit(): void {
@@ -44,6 +46,6 @@ export class SkillsComponent implements OnInit {
       (document.getElementById("skills-loader") as any).classList.add("loader-hidden");
       context.loaderContext = $('#skills-loader').detach();
       $('#skills-inner').append(details);
-    }, 1500);
+    }, this.timeoutDuration);
   }
 }

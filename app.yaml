@@ -1,2 +1,25 @@
-runtime: nodejs16
-service: default
+runtime: nodejs20
+#service: default
+
+handlers:
+  # Serve index.html with no-cache (optional but recommended)
+  - url: /index\.html
+    static_files: dist/portfolio/index.html
+    upload: dist/portfolio/index.html
+    secure: always
+    http_headers:
+      Cache-Control: "no-cache"
+
+  # Anything under /assets/... is a real file, serve it as-is
+  - url: /(assets/.*)
+    static_files: dist/portfolio/\1
+    upload: dist/portfolio/assets/.*
+    secure: always
+    http_headers:
+      Cache-Control: "public, max-age=31536000, immutable"
+
+  # Fallback SPA route
+  - url: /.*
+    static_files: dist/portfolio/index.html
+    upload: dist/portfolio/index.html
+    secure: always

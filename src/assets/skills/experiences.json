@@ -42,5 +42,16 @@
     "dateString": "07.01.2022 – 12.05.2023",
     "description": "My coursework includes a variety of subjects to support full stack, listed as follows:",
     "skills": ["Analysis of Algorithms", "Database Systems", "Web Technologies", "Operating Systems", "Foundations of Artificial Intelligence", "Information Retrieval and Web Search Engines", "Game Engine Development"]
+  },
+  {
+    "companyAcronym": "Synactive",
+    "companyFull": "Synactive Inc",
+    "companyLogo": "/assets/skills/local/Liquid.png",
+    "position": "Junior Developer",
+    "location": "San Francisco, California",
+    "specialization": "Full Stack Development",
+    "dateString": "10.10.2023 – 05.09.2025",
+    "description": "Full stack software development in C/C++/MFC (exe and extension/COM DLLs), writing app insallers in PascalScript, chatbots in Python, deploying Android Clients, adding WebSockets support for Desktop/Android/iOS.",
+    "skills": ["C++", "MFC", "Python", "PascalScript", "TypeScript", "Kotlin", "WebSockets"]
   }
 ]

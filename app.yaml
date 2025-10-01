@@ -2,13 +2,17 @@ runtime: nodejs20
 #service: default
 
 handlers:
-  # Serve index.html with no-cache (optional but recommended)
-  - url: /index\.html
-    static_files: dist/portfolio/index.html
-    upload: dist/portfolio/index.html
-    secure: always
-    http_headers:
-      Cache-Control: "no-cache"
+  # Serve JavaScript files with correct MIME type
+  - url: /(.*\.js)
+    static_files: dist/portfolio/\1
+    upload: dist/portfolio/(.*\.js)
+    mime_type: application/javascript
+
+  # Serve CSS files
+  - url: /(.*\.css)
+    static_files: dist/portfolio/\1
+    upload: dist/portfolio/(.*\.css)
+    mime_type: text/css
 
   # Anything under /assets/... is a real file, serve it as-is
   - url: /(assets/.*)
@@ -18,8 +22,12 @@ handlers:
     http_headers:
       Cache-Control: "public, max-age=31536000, immutable"
 
-  # Fallback SPA route
+  # Serve images and other assets
+  - url: /(.*\.(png|jpg|jpeg|gif|svg|ico|json|webp))
+    static_files: dist/portfolio/\1
+    upload: dist/portfolio/(.*\.(png|jpg|jpeg|gif|svg|ico|json|webp))
+
+  # Catch-all handler to serve index.html for SPA routing
   - url: /.*
     static_files: dist/portfolio/index.html
     upload: dist/portfolio/index.html
-    secure: always

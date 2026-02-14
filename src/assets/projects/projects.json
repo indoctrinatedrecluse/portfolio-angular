@@ -36,7 +36,7 @@
     "title": "Artist Search (Web)",
     "description": "A website to search for paintings, gather information on them and review similar artists and paintings. Powered by Artsy.",
     "technologies": ["typescript", "axios", "flask", "python", "json", "scss", "bootstrap", "angular"],
-    "url": "https://csci-571-hw8-17-indoctrinated.wl.r.appspot.com/#",
+    "url": "https://csci-571-hw8-carousel-recluse.wl.r.appspot.com/#",
     "privacy": true
   },
   {

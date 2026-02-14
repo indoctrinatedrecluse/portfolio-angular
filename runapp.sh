@@ -5,4 +5,4 @@ npm install
 npm audit fix
 
 # run the app via ng
-ng serve
+ng serve --open
